@@ -1,0 +1,11 @@
+[Thu Apr 17 01:15:30 2025] UARTSensor initialized on port: /dev/ttyUSB0
+[Thu Apr 17 01:15:30 2025] Connection opened on /dev/ttyUSB0
+[Thu Apr 17 01:15:30 2025] Command sent: 
+[Thu Apr 17 01:15:30 2025] Reset command received.
+[Thu Apr 17 01:15:30 2025] Sensor value generated: 66.353058
+[Thu Apr 17 01:15:31 2025] Sensor value generated: 39.884392
+[Thu Apr 17 01:15:32 2025] Sensor value generated: 53.956326
+[Thu Apr 17 01:15:33 2025] Sensor value generated: 60.108261
+[Thu Apr 17 01:15:34 2025] Sensor value generated: 23.590706
+[Thu Apr 17 01:15:35 2025] Connection closed on /dev/ttyUSB0
+[Thu Apr 17 01:15:35 2025] UARTSensor destroyed for port: /dev/ttyUSB0
