@@ -64,7 +64,7 @@ void UARTSensor::send_command(const std::vector<uint8_t>& command) {
     std::ostringstream oss;
     oss << "Command sent: ";
     for (auto byte : command) {
-        std::cout << "0x" << std::hex << static_cast<int>(byte) << " ";
+        oss << "0x" << std::hex << static_cast<int>(byte) << " ";
     }
     log(oss.str());
 
