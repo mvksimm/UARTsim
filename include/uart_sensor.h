@@ -11,10 +11,12 @@ private:
     std::mt19937 generator;          
     std::normal_distribution<float> data_distribution; 
     float current_value;        
-
+    
+    std::ofstream log_file;
+    
     void generate_sensor_data();
     void log(const std::string& message);
-    
+
 public:
     UARTSensor(const std::string& port, float mean = 50.0f, float stddev = 10.0f);
     ~UARTSensor();
